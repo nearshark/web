@@ -37,13 +37,13 @@ function App() {
                 <h1>MINTING PRICE</h1>
                 <h2>2 NEAR PER NFT</h2>
                 <Button type="primary" onClick={()=>{
-                    location.href='https://paras.id/nearshark.near/creation'
+                    window.location.href='https://paras.id/nearshark.near/creation'
                 }}>BUY/MINT NFT</Button> &nbsp;
                 <Button type="primary" onClick={()=>{
-                    location.href='https://discord.gg/VFVPk7Uv4e'
+                    window.location.href='https://discord.gg/VFVPk7Uv4e'
                 }}>DISCORD</Button> &nbsp;
                 <Button type="primary" onClick={()=>{
-                    location.href='https://twitter.com/nearshark_near'
+                    window.location.href='https://twitter.com/nearshark_near'
                 }}>TWITTER</Button> &nbsp;
             </div>
         </Col>
