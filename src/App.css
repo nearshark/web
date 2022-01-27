@@ -1,38 +1,27 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+  font-family: 'VT323', monospace;
+}
+.header{
+  font-size: 56px;
   text-align: center;
+  color: white !important;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.desc{
+  padding: 10px;
+  color: white !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.desc p{
+  font-size: 14px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.desc h1,.desc h2{
+  color: white !important;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+  padding: 40px;
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white !important;
+  font-size: 14px;
 }
